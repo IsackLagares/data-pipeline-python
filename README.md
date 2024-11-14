@@ -6,15 +6,15 @@ Status: Finalizado ✔️
 
 <h2>Estrutura do Projeto</h2>
 
-+ `data_pipeline_api:`
-  + `data_frame:`
-  + `notebooks:`
++ `data_pipeline_api:` Pipeline de Dados através de API
+  + `data_frame:` Contém o arquivo final após o processamento dos dados
+  + `notebooks:` Contém um notebook Jupyter onde os dados são explorados, e soluções para leitura, transformação e gravação são desenvolvidas utilizando Python.
   + `scripts:`
-    + `repos_creation.py:`
-    + `repos_data.py:`
-    + `repos_manipulation.py:`
+    + `repos_creation.py:` Script responsável por criar o repositório.
+    + `repos_data.py:` Script responsável por salvar os DataFrames no repositório.
+    + `repos_manipulation.py:` Script responsável pela manipulação dos dados.
       
-+ `data_pipeline_csv_json:`
++ `data_pipeline_csv_json:` Pipeline de Dados através de arquivos .csv e .json
   + `data_processed/:` Contém o arquivo final após o processamento dos dados.
   +  `data_raw/:` Contém arquivos .csv e .json utilizados como exemplo para o processamento de dados.
   + `notebooks/:` Contém um notebook Jupyter onde os dados são explorados, e soluções para leitura, transformação e gravação são desenvolvidas utilizando Python.
